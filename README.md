@@ -1,6 +1,9 @@
 # Go Maze Chase Game
 This project is a simple 2D maze chase game developed in Go, designed to showcase the practical implementation of a custom A* pathfinding algorithm. The player navigates a maze while being pursued by an AI opponent that intelligently tracks the player using the A* algorithm.
 
+## Demonstration
+![Chase Game](/assets/chase.gif)
+
 ## 🎮 Game Overview
 In this game, you control a red ball (the player) within a grid-based maze. Your objective is to evade a blue ball (the AI opponent) that will actively try to find the optimal path to your current location. The AI's calculated path is visually rendered on the screen, allowing you to observe the A* algorithm in action.
 
