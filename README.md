@@ -27,15 +27,13 @@ The AI utilizes the `github.com/matteo00gm/go-astar` library, which implements t
     * When the AI has no current path (e.g., at the start of the game).
     * When the AI has successfully reached the end of its current path.
 
-## Technologies Used
-* **Go (Golang)**
+## Libraries
 * **Ebitengine:** (`github.com/hajimehoshi/ebiten/v2`) used for rendering graphics, handling input, and managing the game loop.
 * **go-astar:** Custom A\* pathfinding library (`github.com/matteo00gm/go-astar`) used for the AI's navigation.
 
 ## How to Run
 To run this game locally, follow these steps:
 
-* **Ensure Go is Installed:** If you don't have Go installed, download it from [golang.org/dl](https://golang.org/dl/).
 * **Clone the Repository:** `git clone https://github.com/matteo00gm/chase-game.git`
 * **Navigate into the project directory:** `cd chase-game`
 * **Install Dependencies:**
